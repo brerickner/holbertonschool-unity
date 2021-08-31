@@ -5,34 +5,35 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
-	public float speed = 80.0f;
-	private Rigidbody rigid;
+	public float speed;
+	public float jumpForce;
+	public CharacterController controller;
 
+	private Vector3 moveDirection;
+	public float gravityScale;
 	
-	/// Gets rigidbody at start for player
-	void Start() {
-		rigid = GetComponent<Rigidbody>();
+	// instantiation
+	void Start () {
+		controller = GetComponent<CharacterController>();
 	}
-
-	/// Use fixed when working with physics
-	void FixedUpdate()
-	{
-		/// Gets horizontal position when key "a" or "d"/right-left arrowkeys
-		float horizontal = Input.GetAxis("Horizontal");
-		float vertical = Input.GetAxis("Vertical");
-		Vector3 move = new Vector3(horizontal, 0.0f, vertical);
-		
-		/// Takes the vector3 move and applies it to direction of addforce and * by speed
-		rigid.AddForce(move * speed);
-		// transform.position += move * speed;
-	}
-	
-	/// Player health expiration
 	void Update (){
+		// Player movement
+		moveDirection =  new Vector3(Input.GetAxis("Horizontal") * speed, 0f, Input.GetAxis("Vertical") * speed);
+		
+		if (controller.isGrounded && Input.GetButtonDown("Jump"))
+		{
+			moveDirection.y = jumpForce;
+
+		}
+
+		moveDirection.y = moveDirection.y + (Physics.gravity.y * gravityScale);
+		controller.Move(moveDirection * Time.deltaTime);
+		
+		// esc key resets game
 		if (Input.GetKey(KeyCode.Escape))
         {
             SceneManager.LoadScene(0);
-        }
+		}
 	}
 
 	/// <summary>
