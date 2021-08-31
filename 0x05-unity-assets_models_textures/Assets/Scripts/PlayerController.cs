@@ -18,15 +18,18 @@ public class PlayerController : MonoBehaviour
 	}
 	void Update (){
 		// Player movement
-		moveDirection =  new Vector3(Input.GetAxis("Horizontal") * speed, 0f, Input.GetAxis("Vertical") * speed);
+		moveDirection =  new Vector3(Input.GetAxis("Horizontal") * speed, moveDirection.y, Input.GetAxis("Vertical") * speed);
 		
-		if (controller.isGrounded && Input.GetButtonDown("Jump"))
+		if (controller.isGrounded)
 		{
-			moveDirection.y = jumpForce;
-
+			moveDirection.y = 0f;
+			if(Input.GetButtonDown("Jump"))
+			{
+				moveDirection.y = jumpForce;
+			}
 		}
 
-		moveDirection.y = moveDirection.y + (Physics.gravity.y * gravityScale);
+		moveDirection.y = moveDirection.y + (Physics.gravity.y * gravityScale * Time.deltaTime);
 		controller.Move(moveDirection * Time.deltaTime);
 		
 		// esc key resets game
