@@ -9,34 +9,41 @@ public class PlayerController : MonoBehaviour
 	public float jumpForce;
 	public CharacterController controller;
 
-	private Vector3 moveDirection;
+	private Vector3 moveDir;
 	public float gravityScale;
+	[SerializeField] private Transform player;
+	[SerializeField] private Transform respawnPoint;
 	
 	// instantiation
+	
 	void Start () {
 		controller = GetComponent<CharacterController>();
 	}
 	void Update (){
 		// Player movement
-		moveDirection =  new Vector3(Input.GetAxis("Horizontal") * speed, moveDirection.y, Input.GetAxis("Vertical") * speed);
+		moveDir =  new Vector3(Input.GetAxis("Horizontal") * speed, moveDir.y, Input.GetAxis("Vertical") * speed);
 		
 		if (controller.isGrounded)
 		{
-			moveDirection.y = 0f;
+			moveDir.y = 0f;
 			if(Input.GetButtonDown("Jump"))
 			{
-				moveDirection.y = jumpForce;
+				moveDir.y = jumpForce;
 			}
 		}
 
-		moveDirection.y = moveDirection.y + (Physics.gravity.y * gravityScale * Time.deltaTime);
-		controller.Move(moveDirection * Time.deltaTime);
+		moveDir.y = moveDir.y + (Physics.gravity.y * gravityScale * Time.deltaTime);
+		controller.Move(moveDir * Time.deltaTime);
 		
 		// esc key resets game
 		if (Input.GetKey(KeyCode.Escape))
         {
             SceneManager.LoadScene(0);
 		}
+	}
+	void OnTriggerEnter(Collider other)
+	{
+		player.transform.position = respawnPoint.transform.position;
 	}
 
 	/// <summary>
