@@ -44,9 +44,9 @@ public class PlayerController : MonoBehaviour
 	{
 		if (other.tag == "Respawn")
 		{
-			GetComponent<CharacterController>().enabled = false;
+			// GetComponent<CharacterController>().enabled = false;
 			transform.position = respawnPoint.transform.position;
-			GetComponent<CharacterController>().enabled = true;
+			// GetComponent<CharacterController>().enabled = true;
 		}
 	}
 
