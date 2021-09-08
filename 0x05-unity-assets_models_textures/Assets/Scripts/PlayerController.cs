@@ -11,8 +11,7 @@ public class PlayerController : MonoBehaviour
 
 	private Vector3 moveDir;
 	public float gravityScale;
-	// [SerializeField] private Transform player;
-	// [SerializeField] private Transform respawnPoint;
+	[SerializeField] private Transform respawnPoint;
 	
 	// instantiation
 	
@@ -41,13 +40,15 @@ public class PlayerController : MonoBehaviour
             SceneManager.LoadScene(0);
 		}
 	}
-	// void OnTriggerEnter(Collider other)
-	// {
-	// 	if (other.tag == "Respawn")
-	// 	{
-	// 		player.transform.position = respawnPoint.transform.position;
-	// 	}
-	// }
+	void OnTriggerEnter(Collider other)
+	{
+		if (other.tag == "Respawn")
+		{
+			GetComponent<CharacterController>().enabled = false;
+			transform.position = respawnPoint.transform.position;
+			GetComponent<CharacterController>().enabled = true;
+		}
+	}
 
 	/// <summary>
 	/// Delays scene reload for 3 seconds
