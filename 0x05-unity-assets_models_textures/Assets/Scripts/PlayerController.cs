@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
 	
 	void Start () {
 		controller = GetComponent<CharacterController>();
+		Physics.IgnoreLayerCollision(0, 8);
 	}
 	void Update (){
 		// Player movement
@@ -40,6 +41,12 @@ public class PlayerController : MonoBehaviour
             SceneManager.LoadScene(0);
 		}
 	}
+	    //Detect when there is a collision
+    void OnCollisionEnter(Collision collide)
+    {
+        //Output the name of the GameObject you collide with
+        Debug.Log("I hit the GameObject : " + collide.gameObject.name);
+    }
 	void OnTriggerEnter(Collider other)
 	{
 		if (other.tag == "Respawn")
