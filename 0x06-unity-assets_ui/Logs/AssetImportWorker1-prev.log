@@ -2841,3 +2841,28 @@ Received Import Request.
   path: Assets/Scenes/Options.unity
   artifactKey: Guid(abd2d8066cb659d43801a0473c3671a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
 Start importing Assets/Scenes/Options.unity using Guid(abd2d8066cb659d43801a0473c3671a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '48b868c5bf6754b722ca8c8b2449e927') in 0.013742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.195322 seconds.
+  path: Assets/Scenes/Options.unity
+  artifactKey: Guid(abd2d8066cb659d43801a0473c3671a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Options.unity using Guid(abd2d8066cb659d43801a0473c3671a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400231f8e46476789c7e6852ed9453bf') in 0.004753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 269.934513 seconds.
+  path: Assets/Scenes/Options.unity
+  artifactKey: Guid(abd2d8066cb659d43801a0473c3671a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Options.unity using Guid(abd2d8066cb659d43801a0473c3671a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'be31c06b6352f51f2d1fdf1c67b8f9c0') in 0.010093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 583.853583 seconds.
+  path: Assets/Scenes/Options.unity
+  artifactKey: Guid(abd2d8066cb659d43801a0473c3671a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Options.unity using Guid(abd2d8066cb659d43801a0473c3671a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6d07730f57b4957693fa35acac646727') in 0.013100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 604.912435 seconds.
+  path: Assets/Scenes/Options.unity
+  artifactKey: Guid(abd2d8066cb659d43801a0473c3671a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Options.unity using Guid(abd2d8066cb659d43801a0473c3671a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81de0993a76844c68668f5c4a64af86d') in 0.006343 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
