@@ -158,3 +158,39 @@ Received Import Request.
   path: Assets/Scenes/Options.unity
   artifactKey: Guid(abd2d8066cb659d43801a0473c3671a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
 Start importing Assets/Scenes/Options.unity using Guid(abd2d8066cb659d43801a0473c3671a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b0b36f86bdf102e884530a469b87b211') in 0.016887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 118.038561 seconds.
+  path: Assets/Scenes/Options.unity
+  artifactKey: Guid(abd2d8066cb659d43801a0473c3671a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Options.unity using Guid(abd2d8066cb659d43801a0473c3671a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '290be4bb386ea0dc1624cd8217409738') in 0.016213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.172617 seconds.
+  path: Assets/Scenes/Options.unity
+  artifactKey: Guid(abd2d8066cb659d43801a0473c3671a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Options.unity using Guid(abd2d8066cb659d43801a0473c3671a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b1f83690871aa71cd41c1fa700473515') in 0.016380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.878512 seconds.
+  path: Assets/Prefabs/BackButton 1.prefab
+  artifactKey: Guid(2d22928a44788a34a8b307fdcd595dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BackButton 1.prefab using Guid(2d22928a44788a34a8b307fdcd595dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341c772d023bd07dd8d4ebd90dc92216') in 0.081093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.864186 seconds.
+  path: Assets/Prefabs/BackButton 1.prefab
+  artifactKey: Guid(2d22928a44788a34a8b307fdcd595dd1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/BackButton 1.prefab using Guid(2d22928a44788a34a8b307fdcd595dd1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '82d07bdff148d3f812f1c3af92d4fa6f') in 0.018020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.466845 seconds.
+  path: Assets/Scenes/Options.unity
+  artifactKey: Guid(abd2d8066cb659d43801a0473c3671a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Options.unity using Guid(abd2d8066cb659d43801a0473c3671a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '863586ac13bcc61c4c074ff9265e6656') in 0.012586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 145.013185 seconds.
+  path: Assets/Scenes/Options.unity
+  artifactKey: Guid(abd2d8066cb659d43801a0473c3671a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Options.unity using Guid(abd2d8066cb659d43801a0473c3671a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1097d70f618055e23ad17498a6da4903') in 0.010395 seconds 
