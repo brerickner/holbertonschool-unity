@@ -6,15 +6,19 @@ using UnityEngine.UI;
 
 public class OptionsMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void Start() {
+        string prevLevel = PlayerPrefs.GetString("lastLevel");
+    }
+    public void Back() {
+        if (PlayerPrefs.HasKey("lastLevel")) 
+        {
+            SceneManager.LoadScene("lastLevel");
+        } 
+        //load default start scene
+        else
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 }

@@ -9,6 +9,7 @@ public class MainMenu : MonoBehaviour
 
     public void LevelSelect(int level) {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + level);
+        PlayerPrefs.SetString("lastLevel", SceneManager.GetActiveScene().name);
     }
     public void Options() 
     {
