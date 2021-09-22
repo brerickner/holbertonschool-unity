@@ -9,10 +9,8 @@ public class MainMenu : MonoBehaviour
 
     public void LevelSelect(int level) {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + level);
-        // PlayerPrefs.GetInt("Scene", level);
-
     }
-    public void OptionsButton() 
+    public void Options() 
     {
         SceneManager.LoadScene(4);
     }

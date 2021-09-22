@@ -1453,7 +1453,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4715756230016300851, guid: 8063723d199a17844a3971cbe844db1d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OptionsButton
+      value: Options
       objectReference: {fileID: 0}
     - target: {fileID: 4715756230016300851, guid: 8063723d199a17844a3971cbe844db1d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
