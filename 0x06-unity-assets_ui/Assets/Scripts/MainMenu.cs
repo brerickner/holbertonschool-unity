@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
 {
 
     public void LevelSelect(int level) {
-        SceneManager.LoadScene(level);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + level);
         // PlayerPrefs.GetInt("Scene", level);
 
     }
