@@ -63,7 +63,7 @@ public class PlayerController : MonoBehaviour
     public void Level2(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-
+	
 	/// <summary>
 	/// Delays scene reload for 3 seconds
 	/// </summary>

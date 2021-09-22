@@ -21,4 +21,13 @@ public class OptionsMenu : MonoBehaviour
             SceneManager.LoadScene(0);
         }
     }
+    public void Restarter()
+	{
+		SceneManager.LoadScene(0);
+	}
+    public void Menu()
+	{
+		SceneManager.LoadScene(0);
+	}
+
 }
