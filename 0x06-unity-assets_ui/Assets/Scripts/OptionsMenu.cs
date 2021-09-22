@@ -10,7 +10,8 @@ public class OptionsMenu : MonoBehaviour
     void Start() {
         string prevLevel = PlayerPrefs.GetString("lastLevel");
     }
-    public void Back() {
+    public void Back() 
+    {
         if (PlayerPrefs.HasKey("lastLevel")) 
         {
             SceneManager.LoadScene("lastLevel");
@@ -21,13 +22,4 @@ public class OptionsMenu : MonoBehaviour
             SceneManager.LoadScene(0);
         }
     }
-    public void Restarter()
-	{
-		SceneManager.LoadScene(0);
-	}
-    public void Menu()
-	{
-		SceneManager.LoadScene(0);
-	}
-
 }

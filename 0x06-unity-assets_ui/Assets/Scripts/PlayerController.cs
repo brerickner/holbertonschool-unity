@@ -34,12 +34,7 @@ public class PlayerController : MonoBehaviour
 
 		moveDir.y = moveDir.y + (Physics.gravity.y * gravityScale * Time.deltaTime);
 		controller.Move(moveDir * Time.deltaTime);
-		
-		// esc key resets game
-		if (Input.GetKey(KeyCode.Escape))
-        {
-            SceneManager.LoadScene(0);
-		}
+
 	}
 	    //Detect when there is a collision
     void OnCollisionEnter(Collision collide)
