@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
 	private Vector3 moveDir;
 	public float gravityScale;
 	[SerializeField] private Transform respawnPoint;
+
 	
 	// instantiation
 	
@@ -21,6 +22,7 @@ public class PlayerController : MonoBehaviour
 	}
 	void Update (){
 		// Player movement
+
 		moveDir =  new Vector3(Input.GetAxis("Horizontal") * speed, moveDir.y, Input.GetAxis("Vertical") * speed);
 		
 		if (controller.isGrounded)
@@ -34,7 +36,6 @@ public class PlayerController : MonoBehaviour
 
 		moveDir.y = moveDir.y + (Physics.gravity.y * gravityScale * Time.deltaTime);
 		controller.Move(moveDir * Time.deltaTime);
-
 	}
 	    //Detect when there is a collision
     void OnCollisionEnter(Collision collide)
@@ -58,6 +59,7 @@ public class PlayerController : MonoBehaviour
     public void Level2(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
 	
 	/// <summary>
 	/// Delays scene reload for 3 seconds

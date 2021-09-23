@@ -7,23 +7,29 @@ using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
-    public GameObject pauseMenu;    // Start is called before the first frame update
-    void Start()
-    {
-        string prevLevel = PlayerPrefs.GetString("lastLevel");
-    }
+    public GameObject pauseMenu;    
+    private bool paused;
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKey(KeyCode.Escape))
         {
-            Pause();
+                paused = !paused;
+                if (!paused)
+                {
+                    Pause();
+                }
+                if (paused)
+                {
+                    Resume();
+                }   
         }
     }
     public void Pause()
     {
-        pauseMenu.gameObject.SetActive(true);
+        Time.timeScale = 0;
+        pauseMenu.SetActive(true);
     }
     public void Menu()
 	{
@@ -32,6 +38,17 @@ public class PauseMenu : MonoBehaviour
 
     public void Restart()
 	{
-		SceneManager.LoadScene("prevLevel");
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+	}
+    public void Resume()
+	{
+		// if (paused == 1)
+        pauseMenu.SetActive(false);
+        Time.timeScale = 1;
+        // paused = 0;
+	}
+    public void Options()
+	{
+		SceneManager.LoadScene(4);
 	}
 }
