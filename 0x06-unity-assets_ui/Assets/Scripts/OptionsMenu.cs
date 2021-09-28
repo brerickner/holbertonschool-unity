@@ -6,20 +6,27 @@ using UnityEngine.UI;
 
 public class OptionsMenu : MonoBehaviour
 {
+    public Toggle invertToggle;
 
     void Start() {
-        string prevLevel = PlayerPrefs.GetString("lastLevel");
+        if (PlayerPrefs.GetInt("isInverted") == 1)
+        {
+            invertToggle.isOn = true;
+        }
     }
     public void Back() 
     {
-        if (PlayerPrefs.HasKey("lastLevel")) 
+        SceneManager.LoadScene(PlayerPrefs.GetString("lastLevel"));
+    }
+    public void Apply() {
+        if (invertToggle.isOn == true)
         {
-            SceneManager.LoadScene("lastLevel");
-        } 
-        //load default start scene
+            PlayerPrefs.SetInt("isInverted", 1);
+        }
         else
         {
-            SceneManager.LoadScene(0);
+            PlayerPrefs.SetInt("isInverted", 0);
         }
+        Back();
     }
 }

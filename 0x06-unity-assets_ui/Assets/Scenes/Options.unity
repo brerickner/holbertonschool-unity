@@ -198,6 +198,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2251911}
   m_CullTransparentMesh: 1
+--- !u!1 &22370694 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5596256441263553908, guid: 61ce46797ffc7a047baa6a0fbe658544, type: 3}
+  m_PrefabInstance: {fileID: 108543445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &22370695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22370694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b969ffbeb758540a78cb0523f0ad51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  invertToggle: {fileID: 1426829017}
 --- !u!1001 &108543445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -205,6 +223,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 228123323}
     m_Modifications:
+    - target: {fileID: 2273942971869314993, guid: 61ce46797ffc7a047baa6a0fbe658544, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2273942971869314993, guid: 61ce46797ffc7a047baa6a0fbe658544, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2273942971869314993, guid: 61ce46797ffc7a047baa6a0fbe658544, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 22370695}
+    - target: {fileID: 2273942971869314993, guid: 61ce46797ffc7a047baa6a0fbe658544, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2273942971869314993, guid: 61ce46797ffc7a047baa6a0fbe658544, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Apply
+      objectReference: {fileID: 0}
+    - target: {fileID: 2273942971869314993, guid: 61ce46797ffc7a047baa6a0fbe658544, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OptionsMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2273942971869314993, guid: 61ce46797ffc7a047baa6a0fbe658544, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2526947894176922585, guid: 61ce46797ffc7a047baa6a0fbe658544, type: 3}
       propertyPath: m_PreserveAspect
       value: 1
@@ -287,7 +333,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6528782442592860387, guid: 61ce46797ffc7a047baa6a0fbe658544, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -613.0585
+      value: -468.4931
       objectReference: {fileID: 0}
     - target: {fileID: 6528782442592860387, guid: 61ce46797ffc7a047baa6a0fbe658544, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -819,6 +865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b969ffbeb758540a78cb0523f0ad51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  invertToggle: {fileID: 1426829017}
 --- !u!1 &638282527
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,7 +1571,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1646773963514288556, guid: a330e3d666daf85448c548e9810877a0, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 626.8041
+      value: 465.7534
       objectReference: {fileID: 0}
     - target: {fileID: 1646773963514288556, guid: a330e3d666daf85448c548e9810877a0, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1669,7 +1716,19 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1426829017}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
+        m_MethodName: set_isOn
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &1455824011
 GameObject:
