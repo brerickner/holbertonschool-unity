@@ -17,4 +17,7 @@ public class Timer : MonoBehaviour
         string timeStr = playTime.ToString("m':'ss'.'ff");
         TimerText.text = timeStr;
     }
+    public void Win() {
+
+    }
 }

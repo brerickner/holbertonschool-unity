@@ -1938,6 +1938,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba7a1193441cf6e4ea78c2ef8a6d52a4, type: 3}
+--- !u!1 &662168358 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5844961221491824133, guid: 4f1d5cbbb12151c479ddd966cb55f5e5, type: 3}
+  m_PrefabInstance: {fileID: 1029197431176567281}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &667496473 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400010, guid: f48f1a27c7f82ce4d8fcc66f66945006, type: 3}
@@ -3620,6 +3625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plyr: {fileID: 3489808847369604132}
+  winner: {fileID: 662168358}
   timerText: {fileID: 216292794}
 --- !u!1 &1087029118
 GameObject:
@@ -7850,7 +7856,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5844961221491824133, guid: 4f1d5cbbb12151c479ddd966cb55f5e5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5844961221491824153, guid: 4f1d5cbbb12151c479ddd966cb55f5e5, type: 3}
       propertyPath: m_Pivot.x
@@ -8094,6 +8100,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4213166330595679373, guid: ab9fcd3c486e90240ab71809c74fb8d4, type: 3}
+      propertyPath: pauseMenu
+      value: 
+      objectReference: {fileID: 4399062294883581578}
     - target: {fileID: 6272252463433807701, guid: ab9fcd3c486e90240ab71809c74fb8d4, type: 3}
       propertyPath: m_Name
       value: PauseCanvas
@@ -8222,7 +8232,8 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Resume
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7640110184570744734, guid: ab9fcd3c486e90240ab71809c74fb8d4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ab9fcd3c486e90240ab71809c74fb8d4, type: 3}
 --- !u!1 &7640110183826573792 stripped
 GameObject:

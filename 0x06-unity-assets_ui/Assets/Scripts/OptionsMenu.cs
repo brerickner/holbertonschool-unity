@@ -9,10 +9,7 @@ public class OptionsMenu : MonoBehaviour
     public Toggle invertToggle;
 
     void Start() {
-        if (PlayerPrefs.GetInt("isInverted") == 1)
-        {
-            invertToggle.isOn = true;
-        }
+
     }
     public void Back() 
     {

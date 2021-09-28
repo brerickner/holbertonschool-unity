@@ -1642,6 +1642,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1426829016}
   - component: {fileID: 1426829017}
+  - component: {fileID: 1426829018}
   m_Layer: 5
   m_Name: InvertYToggle
   m_TagString: Untagged
@@ -1716,20 +1717,21 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1426829017}
-        m_TargetAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
-        m_MethodName: set_isOn
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_IsOn: 0
+--- !u!114 &1426829018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426829015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b969ffbeb758540a78cb0523f0ad51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  invertToggle: {fileID: 1426829017}
 --- !u!1 &1455824011
 GameObject:
   m_ObjectHideFlags: 0
