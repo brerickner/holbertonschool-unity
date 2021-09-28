@@ -11,6 +11,7 @@ public class CameraController : MonoBehaviour
     public bool lookAtPlyr = false;
     public bool rotateAroundPlyr = true;
     public float rotationSpeed = 5.0f;
+    public bool isInverted;
 
     // Start is called before the first frame update
     void Start() {
@@ -21,11 +22,15 @@ public class CameraController : MonoBehaviour
     void LateUpdate()
     {
         if (rotateAroundPlyr)
+        {
+            Quaternion camTurnAngle = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * rotationSpeed, Vector3.up);
+            // Quaternion isY = Quaternion.AngleAxis(Input.GetAxis("Mouse Y") * rotationSpeed, Vector3.down);
+            if (isInverted)
             {
-                Quaternion camTurnAngle = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * rotationSpeed, Vector3.up);
-
-                offset = camTurnAngle * offset;
+               transform.RotateAround(plyrTrans.position, transform.right, Input.GetAxis("Mouse Y") * (isInverted ? -1 : 1) );
             }
+            offset = camTurnAngle * offset;
+        }
         
         Vector3 newPost = plyrTrans.position + offset;
 

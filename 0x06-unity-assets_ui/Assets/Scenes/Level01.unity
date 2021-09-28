@@ -3004,6 +3004,7 @@ MonoBehaviour:
   lookAtPlyr: 1
   rotateAroundPlyr: 1
   rotationSpeed: 5
+  isInverted: 0
 --- !u!1001 &966928395
 PrefabInstance:
   m_ObjectHideFlags: 0
