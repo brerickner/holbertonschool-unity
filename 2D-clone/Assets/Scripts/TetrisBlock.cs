@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class TetrisBlock : MonoBehaviour
 {
+    private float previousTime;
+    public float fallTime = 0.8f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -12,7 +15,8 @@ public class TetrisBlock : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   
+        // Move left and right
         if(Input.GetKeyDown(KeyCode.LeftArrow))
         {
             transform.position += new Vector3(-1, 0, 0);
@@ -21,5 +25,14 @@ public class TetrisBlock : MonoBehaviour
         {
             transform.position += new Vector3(1, 0, 0);
         }
+
+        // Falling pieces, faster when key held down
+        if(Time.time - previousTime > (Input.GetKey(KeyCode.DownArrow) ? fallTime / 10 : fallTime))
+        {
+            transform.position += new Vector3(0, -1, 0);
+            // After piece has fallen
+            previousTime = Time.time;
+        }
+
     }
 }
