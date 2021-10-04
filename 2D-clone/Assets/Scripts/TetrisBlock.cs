@@ -9,6 +9,7 @@ public class TetrisBlock : MonoBehaviour
     public float fallTime = 0.8f;
     public static int height = 20;
     public static int width = 10;
+    public static Transform[,] grid = new Transform[width, height];
 
     // Start is called before the first frame update
     void Start()
@@ -33,12 +34,12 @@ public class TetrisBlock : MonoBehaviour
             if(!ValidMove())
                 transform.position -= new Vector3(1, 0, 0);
         }
-        
+
         else if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             transform.RotateAround(transform.TransformPoint(rotationPoint), new Vector3(0, 0, 1), 90);
             if(!ValidMove())
-                transform.RotateAround(transform.TransformPoint(rotationPoint), new Vector3(0, 0, 1), 90);
+                transform.RotateAround(transform.TransformPoint(rotationPoint), new Vector3(0, 0, 1), -90);
         }
     
         // Falling pieces, faster when key held down
@@ -46,13 +47,29 @@ public class TetrisBlock : MonoBehaviour
         {
             transform.position += new Vector3(0, -1, 0);
             if(!ValidMove())
-                transform.position -= new Vector3(-1, 0, 0);
+            {
+                // Disable script then spawn new tetrimino upon hitting the bottom
+                transform.position -= new Vector3(0, -1, 0);
+                AddToGrid();
+                this.enabled = false;
+                FindObjectOfType<Spawn>().NewTetrimino();
+            }
             // After piece has fallen
             previousTime = Time.time;
         }
 
     }
 
+    void AddToGrid()
+    {
+        foreach (Transform children in transform)
+        {
+            int roundedX = Mathf.RoundToInt(children.transform.position.x);
+            int roundedY = Mathf.RoundToInt(children.transform.position.y);
+            
+            grid[roundedX, roundedY] = children;
+        }
+    }
     // Make sure pieces are on the grid
     bool ValidMove()
     {
@@ -60,11 +77,18 @@ public class TetrisBlock : MonoBehaviour
         {
             int roundedX = Mathf.RoundToInt(children.transform.position.x);
             int roundedY = Mathf.RoundToInt(children.transform.position.y);
+            Debug.Log("roundedY: " + Mathf.RoundToInt(children.transform.position.y));
+            Debug.Log("height: " + height);
+            Debug.Log("roundedX: " + roundedX);
+            Debug.Log("width: " + width);
 
-            if(roundedX < 0 || roundedX >= width || roundedY < 0 || roundedY >= height)
+            if(roundedX < 0 || roundedX > width || roundedY < 1 || roundedY > height)
             {
                 return false;
             }
+            // if grid spot taken up by another square
+            if (grid[roundedX, roundedY] != null)
+                return false;
         }
         return true;
     }
