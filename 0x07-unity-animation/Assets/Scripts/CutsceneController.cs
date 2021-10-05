@@ -7,32 +7,23 @@ using UnityEngine;
 
 public class CutsceneController : MonoBehaviour
 {
-    public GameObject mainCamera;
-    public GameObject playerController;
+    public GameObject mainCam;
+    public GameObject player;
     public GameObject timerCanvas;
-    public GameObject cutSceneController;
+    public GameObject introCam;
 
     // Start is called before the first frame update
     void Start()
     {
-        Object[] allObjects = Object.FindObjectsOfType<GameObject>();
 
-        foreach (GameObject go in allObjects)
-        {
-            Debug.Log(go + " is an active object " + go.GetInstanceID());
-        }
-        
-        
-    //     mainCamera = playerController.transform.GetChild(0).gameObject.transform.GetChild(1).gameObject;
     }
 
     // Called by animator
-    void StartGame()
+    void afterIntro()
     {
-        mainCamera.SetActive(true);
-        mainCamera.GetComponent<CameraController>().enabled = true;
-        playerController.SetActive(true);
-        playerController.GetComponent<PlayerController>().enabled = true;
-        cutSceneController.SetActive(false);
+        mainCam.SetActive(true);
+        player.GetComponent<PlayerController>().enabled = true;
+        timerCanvas.SetActive(true);
+        introCam.SetActive(false);
     }
 }
