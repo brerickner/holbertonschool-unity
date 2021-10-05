@@ -2948,7 +2948,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &963194226
 AudioListener:
   m_ObjectHideFlags: 0
@@ -6692,6 +6692,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88ac460e0403131478c5e7c869f0091b, type: 3}
+--- !u!1 &1806982908 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 422535694535873481, guid: cc075d678d197e848bf08109219035df, type: 3}
+  m_PrefabInstance: {fileID: 8537097381752161102}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1811718071 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 57ca90a6c49aac240bb0d75dc225a134, type: 3}
@@ -8049,6 +8054,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4399062294883581578}
     - target: {fileID: 666476468911825301, guid: 38ee530bc372c4740803e37e451463af, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 666476468911825301, guid: 38ee530bc372c4740803e37e451463af, type: 3}
       propertyPath: pauseMenu
       value: 
       objectReference: {fileID: 4399062294883581578}
@@ -8320,6 +8329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TimerCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 422535694535873481, guid: cc075d678d197e848bf08109219035df, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3037382119968113032, guid: cc075d678d197e848bf08109219035df, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -8524,7 +8537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc1ca6b1b01204f4da23f3c8c9e37b4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 0}
-  playerController: {fileID: 0}
-  timerCanvas: {fileID: 0}
-  cutSceneController: {fileID: 0}
+  mainCam: {fileID: 963194225}
+  player: {fileID: 3489808847369604132}
+  timerCanvas: {fileID: 1806982908}
+  introCam: {fileID: 9153821751097488020}
