@@ -8069,6 +8069,30 @@ PrefabInstance:
       propertyPath: respawnPoint
       value: 
       objectReference: {fileID: 297887954}
+    - target: {fileID: 4218162042800568369, guid: 38ee530bc372c4740803e37e451463af, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4218162042800568369, guid: 38ee530bc372c4740803e37e451463af, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4218162042800568369, guid: 38ee530bc372c4740803e37e451463af, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4218162042800568369, guid: 38ee530bc372c4740803e37e451463af, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4218162042800568369, guid: 38ee530bc372c4740803e37e451463af, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 77f132796a80c0645a75baf10335137f, type: 2}
+    - target: {fileID: 4218162042800568369, guid: 38ee530bc372c4740803e37e451463af, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: be2baeda1b7a6964f9e9702191920724, type: 2}
     - target: {fileID: 4578957860685927902, guid: 38ee530bc372c4740803e37e451463af, type: 3}
       propertyPath: m_Name
       value: Player
