@@ -335,3 +335,15 @@ Received Import Request.
   path: Assets/Animators/ty.controller
   artifactKey: Guid(aee28c538cc0de24fbf0c684299a70b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Animators/ty.controller using Guid(aee28c538cc0de24fbf0c684299a70b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df26f5762514d0ec96c9c48adea5632') in 0.019811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 86.457312 seconds.
+  path: Assets/Animations/ty@Jump.fbx
+  artifactKey: Guid(f8b84ab9240d53f4bb8339141dbef047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ty@Jump.fbx using Guid(f8b84ab9240d53f4bb8339141dbef047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d899539662edaea337fc3a9b784ed6') in 0.032636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.506718 seconds.
+  path: Assets/Animations/ty@Jump.fbx
+  artifactKey: Guid(f8b84ab9240d53f4bb8339141dbef047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ty@Jump.fbx using Guid(f8b84ab9240d53f4bb8339141dbef047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9d1ecc27f12bc447f943f57f564532') in 0.013822 seconds 
