@@ -845,3 +845,141 @@ Received Import Request.
   path: Assets/Scripts/OptionsMenu.cs
   artifactKey: Guid(13b969ffbeb758540a78cb0523f0ad51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/OptionsMenu.cs using Guid(13b969ffbeb758540a78cb0523f0ad51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c80fdbe1ca11ded121093a150898ac') in 0.015498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 232.621825 seconds.
+  path: Assets/Prefabs/MenuSFX.prefab
+  artifactKey: Guid(8f84fc26022439540a09e4a33c4f25a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MenuSFX.prefab using Guid(8f84fc26022439540a09e4a33c4f25a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15bc52907d079ddd137abe0d1b29c709') in 0.036481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 200.586797 seconds.
+  path: Assets/Prefabs/OptionsButton.prefab
+  artifactKey: Guid(f54d97071801a3842909c4c230652519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OptionsButton.prefab using Guid(f54d97071801a3842909c4c230652519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82199a14687253121cef9e1638fd1f4') in 0.032365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.124894 seconds.
+  path: Assets/Prefabs/OptionsButton.prefab
+  artifactKey: Guid(f54d97071801a3842909c4c230652519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OptionsButton.prefab using Guid(f54d97071801a3842909c4c230652519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2aabb834781dd81dd6a4cf533c4d22e') in 0.009811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.022940 seconds.
+  path: Assets/Prefabs/OptionsButton.prefab
+  artifactKey: Guid(f54d97071801a3842909c4c230652519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OptionsButton.prefab using Guid(f54d97071801a3842909c4c230652519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de24f71ca754223e41d03370d4e0bfb9') in 0.010475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.819447 seconds.
+  path: Assets/Prefabs/OptionsButton.prefab
+  artifactKey: Guid(f54d97071801a3842909c4c230652519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OptionsButton.prefab using Guid(f54d97071801a3842909c4c230652519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538a595f3092e9a9e953e81756c7a7fd') in 0.009484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.009448 seconds.
+  path: Assets/Prefabs/OptionsButton.prefab
+  artifactKey: Guid(f54d97071801a3842909c4c230652519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OptionsButton.prefab using Guid(f54d97071801a3842909c4c230652519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1344ce91f7591806f8b82a3443c6a0') in 0.008622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.618876 seconds.
+  path: Assets/Prefabs/OptionsButton.prefab
+  artifactKey: Guid(f54d97071801a3842909c4c230652519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OptionsButton.prefab using Guid(f54d97071801a3842909c4c230652519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fd0d877c660ac43302f668d85615b9') in 0.009703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.533126 seconds.
+  path: Assets/Prefabs/PauseCanvas.prefab
+  artifactKey: Guid(ab9fcd3c486e90240ab71809c74fb8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PauseCanvas.prefab using Guid(ab9fcd3c486e90240ab71809c74fb8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c60b32a88d91c196d9d13f8c11b53ce') in 0.018750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.257797 seconds.
+  path: Assets/Prefabs/OptionsButton.prefab
+  artifactKey: Guid(f54d97071801a3842909c4c230652519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OptionsButton.prefab using Guid(f54d97071801a3842909c4c230652519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a0d70fa5b4b7850086839aebdfc972') in 0.010592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008444 seconds.
+  path: Assets/Prefabs/PauseCanvas.prefab
+  artifactKey: Guid(ab9fcd3c486e90240ab71809c74fb8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PauseCanvas.prefab using Guid(ab9fcd3c486e90240ab71809c74fb8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e95244b2ce2ac02f175dc5fb5320e3') in 0.014103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 172.517839 seconds.
+  path: Assets/Prefabs/OptionsButton.prefab
+  artifactKey: Guid(f54d97071801a3842909c4c230652519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OptionsButton.prefab using Guid(f54d97071801a3842909c4c230652519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61288abe258f7934b835196809a88ded') in 0.011668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/PauseCanvas.prefab
+  artifactKey: Guid(ab9fcd3c486e90240ab71809c74fb8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PauseCanvas.prefab using Guid(ab9fcd3c486e90240ab71809c74fb8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d27d2de89ec0dd40523d038cb45f9e9') in 0.010744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.090706 seconds.
+  path: Assets/Prefabs/ExitButton.prefab
+  artifactKey: Guid(5d8964b02c6f7a246b9a7f63384e0c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ExitButton.prefab using Guid(5d8964b02c6f7a246b9a7f63384e0c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180f6eef7f790a5753bdc05f43bc4539') in 0.015705 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003917 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\brean\ARVR\holbertonschool-unity\0x08-unity-audio\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\brean\ARVR\holbertonschool-unity\0x08-unity-audio\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.415 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1479ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1221ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (421ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (474ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (357ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (97.2 KB). Loaded Objects now: 4123.
+Memory consumption went from 146.6 MB to 146.5 MB.
+Total: 4.931500 ms (FindLiveObjects: 0.400600 ms CreateObjectMapping: 0.487200 ms MarkObjects: 4.001900 ms  DeleteObjects: 0.040100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
